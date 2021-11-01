@@ -9,9 +9,11 @@
         "inputs": {
           "serviceName": "bark",
           "servicePath": "/",
-          "localPath": "./",
-          "uploadType": "package",
+          "uploadType": "image",
           "containerPort": 80,
+          "imageInfo": {
+            "imageUrl": "finab/bark-server:latest"
+          },
           "envVariables": {},
           "volumeMounts": {
             "/data": "bark-cfs"
