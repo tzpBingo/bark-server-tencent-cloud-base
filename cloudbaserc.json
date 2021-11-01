@@ -10,7 +10,7 @@
           "serviceName": "bark",
           "servicePath": "/",
           "uploadType": "image",
-          "containerPort": 80,
+          "containerPort": 8080,
           "imageInfo": {
             "imageUrl": "finab/bark-server:latest"
           },
