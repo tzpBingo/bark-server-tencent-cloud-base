@@ -9,6 +9,7 @@
         "inputs": {
           "serviceName": "bark",
           "servicePath": "/",
+          "localPath": "/",
           "uploadType": "image",
           "containerPort": 8080,
           "imageInfo": {
